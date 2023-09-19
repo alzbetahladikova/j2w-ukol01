@@ -91,9 +91,12 @@ th {
 }
 
 .foto {
-    width: 20%;
+    max-width: 20%;
+    height: auto;
     border: 2px solid #1f1e1e;
     border-radius: 10px;
+    object-fit: cover;
+    object-position: bottom;
 }
 
 
